@@ -1,0 +1,11 @@
+{
+  "autoload": {
+    "psr-4": {
+      "lv\\" : "vendor/lv/core",
+      "app\\" : "app"
+    }
+  },
+  "require": {
+
+  }
+}
