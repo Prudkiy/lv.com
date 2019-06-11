@@ -350,4 +350,22 @@
 -----------------------
 ][ 2019-06-10 17:59:39 Текст ошибки: Call to undefined function PHPSTORM_META\type(). Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/App.php. Строка: 19 
 -----------------------
+][ 2019-06-11 19:26:21 Текст ошибки: Страница не найдена. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Router.php. Строка: 35 
+-----------------------
+][ 2019-06-11 19:29:09 Текст ошибки: Страница не найдена. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Router.php. Строка: 35 
+-----------------------
+][ 2019-06-11 19:29:39 Текст ошибки: Страница не найдена. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Router.php. Строка: 35 
+-----------------------
+][ 2019-06-11 19:29:52 Текст ошибки: Страница не найдена. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Router.php. Строка: 35 
+-----------------------
+][ 2019-06-11 19:51:18 Текст ошибки: Undefined class constant 'route'. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Router.php. Строка: 31 
+-----------------------
+][ 2019-06-11 19:51:19 Текст ошибки: Undefined class constant 'route'. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Router.php. Строка: 31 
+-----------------------
+][ 2019-06-11 19:51:25 Текст ошибки: Undefined class constant 'route'. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Router.php. Строка: 31 
+-----------------------
+][ 2019-06-11 19:51:27 Текст ошибки: Undefined class constant 'route'. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Router.php. Строка: 31 
+-----------------------
+][ 2019-06-11 19:51:40 Текст ошибки: Undefined class constant 'route'. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Router.php. Строка: 31 
+-----------------------
 ]

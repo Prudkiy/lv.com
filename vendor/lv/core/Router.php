@@ -28,11 +28,11 @@ class Router
     {
         if (self::mathRoute($url))
         {
-            echo 'Ok';
+            echo $controller = 'app\controllers\\' . self::$route['prefix'] . self::$route['controller'] . 'Controller';
         }
         else
         {
-            echo 'Not1Ok';
+            throw new \Exception("Страница не найдена", 404);
         }
     }
 
@@ -42,25 +42,21 @@ class Router
         {
             if (preg_match("#$patern#", $url, $matches)){
 
-                foreach ($matches as $k => $v)
-
-                {
+                foreach ($matches as $k => $v) {
                     if (is_string($k))
                     {
                         $route[$k] = $v;
                     }
                 }
-                if (empty($route['action']))
-                {
+                if (empty($route['action'])) {
                     $route['action'] = 'index';
                 }
                 if (!isset($route['prefix'])) {
                     $route['prefix'] = '';
                 } else {
-                    $route['prefix'] = '\\';
+                    $route['prefix'] .= '\\';
                 }
-
-                debug($route);
+                self::$route = $route;
                 return true;
 
             }
