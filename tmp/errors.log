@@ -368,4 +368,24 @@
 -----------------------
 ][ 2019-06-11 19:51:40 Текст ошибки: Undefined class constant 'route'. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Router.php. Строка: 31 
 -----------------------
+][ 2019-06-11 20:23:50 Текст ошибки: Контроллер app\controllers\NewController не найден. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Router.php. Строка: 37 
+-----------------------
+][ 2019-06-11 20:24:16 Текст ошибки: Контроллер app\controllers\NewController не найден. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Router.php. Строка: 37 
+-----------------------
+][ 2019-06-11 20:27:23 Текст ошибки: Контроллер app\controllers\NewController не найден. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Router.php. Строка: 43 
+-----------------------
+][ 2019-06-11 20:27:37 Текст ошибки: Контроллер app\controllers\MainController не найден. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Router.php. Строка: 43 
+-----------------------
+][ 2019-06-11 20:27:37 Текст ошибки: Контроллер app\controllers\MainController не найден. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Router.php. Строка: 43 
+-----------------------
+][ 2019-06-11 20:28:17 Текст ошибки: Контроллер app\controllers\MainController::indexAction не найден. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Router.php. Строка: 39 
+-----------------------
+][ 2019-06-11 20:30:16 Текст ошибки: Контроллер app\controllers\MainController::indexAction не найден. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Router.php. Строка: 39 
+-----------------------
+][ 2019-06-11 20:31:43 Текст ошибки: Контроллер app\controllers\MainController::indexAction не найден. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Router.php. Строка: 39 
+-----------------------
+][ 2019-06-11 20:32:16 Текст ошибки: Контроллер app\controllers\MainController::indexAction не найден. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Router.php. Строка: 39 
+-----------------------
+][ 2019-06-11 20:32:23 Текст ошибки: Контроллер app\controllers\MainController::indexAction не найден. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Router.php. Строка: 39 
+-----------------------
 ]
