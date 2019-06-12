@@ -388,4 +388,10 @@
 -----------------------
 ][ 2019-06-11 20:32:23 Текст ошибки: Контроллер app\controllers\MainController::indexAction не найден. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Router.php. Строка: 39 
 -----------------------
+][ 2019-06-12 21:23:40 Текст ошибки: Class 'AppController' not found. Файл: /opt/lampp/htdocs/site/lv.com/app/controllers/MainController.php. Строка: 4 
+-----------------------
+][ 2019-06-12 21:24:02 Текст ошибки: Class 'AppController' not found. Файл: /opt/lampp/htdocs/site/lv.com/app/controllers/MainController.php. Строка: 4 
+-----------------------
+][ 2019-06-12 21:25:23 Текст ошибки: Контроллер app\controllers\MainController не найден. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Router.php. Строка: 43 
+-----------------------
 ]

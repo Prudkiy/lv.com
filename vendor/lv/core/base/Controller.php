@@ -22,4 +22,14 @@ abstract class Controller
          $this->model = $route['controller'];
     }
 
+    public function set ($data) {
+        $this->data = $data;
+    }
+
+    public function setMeta ($title = '', $discription = '', $keywords = '') {
+        $this->meta['title'] = $title;
+        $this->meta['discription'] = $discription;
+        $this->meta['keywords'] = $keywords;
+    }
+
 }

@@ -4,11 +4,9 @@
 namespace app\controllers;
 
 
-use lv\base\Controller;
-
-class MainController extends Controller
+class MainController extends AppController
 {
     public function indexAction () {
-        debug($this->route);
+        debug($this->view);
     }
 }
