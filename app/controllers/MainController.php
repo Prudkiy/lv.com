@@ -4,9 +4,11 @@
 namespace app\controllers;
 
 
-class MainController
+use lv\base\Controller;
+
+class MainController extends Controller
 {
     public function indexAction () {
-        echo __METHOD__;
+        debug($this->route);
     }
 }
