@@ -33,7 +33,7 @@ class View
     public function render ($data) {
 
         $viewFile = APP . "/views/{$this->prefix}{$this->controller}/{$this->view}.php";
-        $meta = $this->getMeta();
+        $meta = $this->getMeta($this->meta);
 
         if (is_file($viewFile)){
             ob_start();
@@ -51,8 +51,16 @@ class View
 
     }
 
-    private function getMeta () {
-        return 'meta data';
+    private function getMeta ($data) {
+
+        $meta = "
+    <meta charset=\"UTF-8\">
+    <meta name=\"keywords\" content=\"{$data['keywords']}\" />
+    <meta name=\"description\" content=\"{$data['discription']}\" />
+    <title>{$data['title']}</title>
+    
+        ";
+        return $meta;
     }
 
 }
