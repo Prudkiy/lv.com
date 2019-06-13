@@ -13,7 +13,7 @@ define("CORE", ROOT . '/vendor/lv/core');
 define("LIBS", ROOT . '/vendor/lv/core/libs');
 define("CACHE", ROOT . '/tmp/cache');
 define("CONF", ROOT . '/config');
-define("LAYOUT", ROOT . 'default');
+define("LAYOUT", '/default');
 define("PATH", $app_path);
 define("ADMIN", ROOT . '/admin');
 

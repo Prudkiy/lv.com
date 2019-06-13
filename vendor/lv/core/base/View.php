@@ -26,14 +26,33 @@ class View
         if ($layout === false) {
             $this->layout = false;
         }
-        else {
-             $this->layout = $layout ?: LAYOUT;
-        }
+        else $this->layout = LAYOUT;
 
     }
 
     public function render ($data) {
 
+        $viewFile = APP . "/views/{$this->prefix}{$this->controller}/{$this->view}.php";
+        $meta = $this->getMeta();
+
+        if (is_file($viewFile)){
+            ob_start();
+            require_once $viewFile;
+            $content = ob_get_clean();
+        }
+        else throw new \Exception("Не найден вид - {$this->view}", 500);
+
+        if (false !== $this->layout) $layoutFile = APP . "/views/layouts/{$this->layout}.php";
+
+        if (is_file($layoutFile)) {
+            require_once $layoutFile;
+        }
+        else throw new \Exception("Шаблон не найден - {$layoutFile}", 500);
+
+    }
+
+    private function getMeta () {
+        return 'meta data';
     }
 
 }
