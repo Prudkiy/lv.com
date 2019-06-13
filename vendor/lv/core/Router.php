@@ -34,6 +34,7 @@ class Router
                 $action = self::lowerCamelCase( self::$route['action'] ) . 'Action';
                 if (method_exists($controllerObject, $action)){
                     $controllerObject->$action();
+
                 }
                 else {
                     throw new \Exception("Контроллер $controller::$action не найден", 404);
