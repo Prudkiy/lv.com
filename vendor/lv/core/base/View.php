@@ -32,6 +32,8 @@ class View
 
     public function render ($data) {
 
+        if (is_array($data)) extract($data);
+
         $viewFile = APP . "/views/{$this->prefix}{$this->controller}/{$this->view}.php";
         $meta = $this->getMeta($this->meta);
 

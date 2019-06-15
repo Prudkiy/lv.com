@@ -398,4 +398,6 @@
 -----------------------
 ][ 2019-06-13 20:09:07 Текст ошибки: Шаблон не найден - /opt/lampp/htdocs/site/lv.com/app/views1/layouts//default.php. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/base/View.php. Строка: 47 
 -----------------------
+][ 2019-06-13 21:17:49 Текст ошибки: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'. Файл: /opt/lampp/htdocs/site/lv.com/app/controllers/MainController.php. Строка: 13 
+-----------------------
 ]
