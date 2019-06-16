@@ -420,4 +420,60 @@
 -----------------------
 ][ 2019-06-16 02:13:51 Текст ошибки: Не найден вид - view. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/base/View.php. Строка: 45 
 -----------------------
+][ 2019-06-16 14:28:29 Текст ошибки: Нет соеденения с базой данных. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Db.php. Строка: 20 
+-----------------------
+][ 2019-06-16 14:29:22 Текст ошибки: Нет соеденения с базой данных. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Db.php. Строка: 21 
+-----------------------
+][ 2019-06-16 14:29:30 Текст ошибки: Нет соеденения с базой данных. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Db.php. Строка: 21 
+-----------------------
+][ 2019-06-16 14:31:59 Текст ошибки: Unsupported database ().. Файл: /opt/lampp/htdocs/site/lv.com/vendor/gabordemooij/redbean/RedBeanPHP/Facade.php. Строка: 383 
+-----------------------
+][ 2019-06-16 14:32:29 Текст ошибки: Нет соеденения с базой данных. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Db.php. Строка: 21 
+-----------------------
+][ 2019-06-16 14:32:40 Текст ошибки: Нет соеденения с базой данных. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Db.php. Строка: 21 
+-----------------------
+][ 2019-06-16 14:34:28 Текст ошибки: syntax error, unexpected ''ok, database good'' (T_CONSTANT_ENCAPSED_STRING). Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Db.php. Строка: 24 
+-----------------------
+][ 2019-06-16 14:34:37 Текст ошибки: syntax error, unexpected ''ok, database good'' (T_CONSTANT_ENCAPSED_STRING). Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Db.php. Строка: 24 
+-----------------------
+][ 2019-06-16 20:19:07 Текст ошибки: Class 'R' not found. Файл: /opt/lampp/htdocs/site/lv.com/app/controllers/MainController.php. Строка: 12 
+-----------------------
+][ 2019-06-16 20:19:16 Текст ошибки: Class 'app\controllers\R' not found. Файл: /opt/lampp/htdocs/site/lv.com/app/controllers/MainController.php. Строка: 12 
+-----------------------
+][ 2019-06-16 20:22:26 Текст ошибки: Class 'app\controllers\R' not found. Файл: /opt/lampp/htdocs/site/lv.com/app/controllers/MainController.php. Строка: 12 
+-----------------------
+][ 2019-06-16 20:22:27 Текст ошибки: Class 'app\controllers\R' not found. Файл: /opt/lampp/htdocs/site/lv.com/app/controllers/MainController.php. Строка: 12 
+-----------------------
+][ 2019-06-16 20:22:28 Текст ошибки: Class 'app\controllers\R' not found. Файл: /opt/lampp/htdocs/site/lv.com/app/controllers/MainController.php. Строка: 12 
+-----------------------
+][ 2019-06-16 20:22:28 Текст ошибки: Class 'app\controllers\R' not found. Файл: /opt/lampp/htdocs/site/lv.com/app/controllers/MainController.php. Строка: 12 
+-----------------------
+][ 2019-06-16 20:22:28 Текст ошибки: Class 'app\controllers\R' not found. Файл: /opt/lampp/htdocs/site/lv.com/app/controllers/MainController.php. Строка: 12 
+-----------------------
+][ 2019-06-16 20:22:29 Текст ошибки: Class 'app\controllers\R' not found. Файл: /opt/lampp/htdocs/site/lv.com/app/controllers/MainController.php. Строка: 12 
+-----------------------
+][ 2019-06-16 20:24:07 Текст ошибки: Class 'app\controllers\R' not found. Файл: /opt/lampp/htdocs/site/lv.com/app/controllers/MainController.php. Строка: 12 
+-----------------------
+][ 2019-06-16 20:24:58 Текст ошибки: Class 'lv\R' not found. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Db.php. Строка: 16 
+-----------------------
+][ 2019-06-16 20:25:05 Текст ошибки: Class 'lv\R' not found. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Db.php. Строка: 16 
+-----------------------
+][ 2019-06-16 20:25:06 Текст ошибки: Class 'lv\R' not found. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Db.php. Строка: 16 
+-----------------------
+][ 2019-06-16 20:25:06 Текст ошибки: Class 'lv\R' not found. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Db.php. Строка: 16 
+-----------------------
+][ 2019-06-16 20:26:28 Текст ошибки: Class 'lv\R' not found. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Db.php. Строка: 16 
+-----------------------
+][ 2019-06-16 20:28:10 Текст ошибки: Class 'lv\R' not found. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Db.php. Строка: 19 
+-----------------------
+][ 2019-06-16 20:28:11 Текст ошибки: Class 'lv\R' not found. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Db.php. Строка: 19 
+-----------------------
+][ 2019-06-16 20:28:11 Текст ошибки: Class 'lv\R' not found. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Db.php. Строка: 19 
+-----------------------
+][ 2019-06-16 20:28:12 Текст ошибки: Class 'lv\R' not found. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Db.php. Строка: 19 
+-----------------------
+][ 2019-06-16 20:28:12 Текст ошибки: Class 'lv\R' not found. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Db.php. Строка: 19 
+-----------------------
+][ 2019-06-16 20:46:09 Текст ошибки: Call to a member function grep() on null. Файл: /opt/lampp/htdocs/site/lv.com/app/views/layouts/default.php. Строка: 15 
+-----------------------
 ]

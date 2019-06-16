@@ -6,8 +6,13 @@
     <?=$meta?>
 </head>
 <body>
-        <p>ok.... go ... layout default</p>
-        <br/>
         <?=$content?>
+        <?php
+                $logs = \R::getDatabaseAdapter()
+                    ->getDatabase()
+                    ->getLogger();
+
+                debug( $logs->grep( 'SELECT' ) );
+        ?>
 </body>
 </html>
