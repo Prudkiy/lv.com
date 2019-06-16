@@ -52,6 +52,8 @@ class Router
 
     public static function mathRoute ($url)
     {
+        $url = self::removeQueryString($url); // work is query (url)
+        debug($url);
         foreach ( self::$routes as $patern => $route )
         {
             if (preg_match("#$patern#", $url, $matches)){
@@ -85,6 +87,17 @@ class Router
 
     protected static function lowerCamelCase ($name) {
         return lcfirst(self::upperCamelCase($name));
+    }
+
+    //we cut parameters from request
+    protected static function removeQueryString ($url) {
+        $arrayRequest = explode('&', $url, 2);
+        if (false === strpos($arrayRequest[0], '=')){
+            return trim ( $arrayRequest[0], '/' );
+        }
+        else {
+            return '';
+        }
     }
 
 }

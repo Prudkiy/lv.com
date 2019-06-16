@@ -400,4 +400,24 @@
 -----------------------
 ][ 2019-06-13 21:17:49 Текст ошибки: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'. Файл: /opt/lampp/htdocs/site/lv.com/app/controllers/MainController.php. Строка: 13 
 -----------------------
+][ 2019-06-16 00:47:50 Текст ошибки: Страница не найдена. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Router.php. Строка: 49 
+-----------------------
+][ 2019-06-16 02:05:30 Текст ошибки: Контроллер app\controllers\PageController не найден. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Router.php. Строка: 44 
+-----------------------
+][ 2019-06-16 02:05:56 Текст ошибки: Страница не найдена. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Router.php. Строка: 49 
+-----------------------
+][ 2019-06-16 02:06:49 Текст ошибки: Страница не найдена. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Router.php. Строка: 49 
+-----------------------
+][ 2019-06-16 02:07:18 Текст ошибки: Страница не найдена. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Router.php. Строка: 49 
+-----------------------
+][ 2019-06-16 02:07:39 Текст ошибки: Страница не найдена. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Router.php. Строка: 49 
+-----------------------
+][ 2019-06-16 02:08:02 Текст ошибки: Страница не найдена. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Router.php. Строка: 49 
+-----------------------
+][ 2019-06-16 02:08:29 Текст ошибки: Страница не найдена. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Router.php. Строка: 49 
+-----------------------
+][ 2019-06-16 02:10:37 Текст ошибки: Контроллер app\controllers\PageController не найден. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/Router.php. Строка: 44 
+-----------------------
+][ 2019-06-16 02:13:51 Текст ошибки: Не найден вид - view. Файл: /opt/lampp/htdocs/site/lv.com/vendor/lv/core/base/View.php. Строка: 45 
+-----------------------
 ]
